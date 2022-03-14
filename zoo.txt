@@ -1,0 +1,26 @@
+Interesting:
+- Our society is producing digital information at an astonishing rate.
+- The goal of visualization is to aid our understanding of data by leveraging the human visual system’s highly-tuned ability to
+ see patterns, spot trends, and identify outliers.
+- Parallel coordinates (||-coord) take a different approach to visualizing multivariate data. Instead of graphing every pair of
+ variables in two dimensions, we repeatedly plot the data on parallel axes and then connect the corresponding points with lines. Each poly-line represents a single row in the database and line crossings between dimensions often indicate inverse correlation. Re-ordering dimensions can aid pattern-finding, as can interactive querying to filter along one more dimensions. Another advantage of parallel coordinates is that they are relatively compact and so many variables can be shown simultaneously.
+- Data is often collected and aggregated by geographical areas such as states. A standard approach to communicating this data is
+ to use a color encoding of the geographic area, resulting in a choropleth map.
+- An alternative to choropleth maps is the graduated symbol map, which instead places symbols over an underlying map. This
+ approach avoids confounding geographic area with data values and allows for more dimensions to be visualized
+- An alternative visualization scheme is the dendrogram (or “cluster”) algorithm, which places leaf nodes of the tree at the
+ same level.
+- By packing circles instead of subdividing rectangles, we can produce a different sort of enclosure diagram that has an almost
+ organic appearance. While it does not use space as efficiently as a treemap, the “wasted space” of circle-packing layouts
+  effectively reveals the hierarchy. At the same time, node sizes can be rapidly compared using area judgments.
+- A common and intuitive approach to network layout is to model the graph as a physical system: nodes are charged particles
+ that repel each other, while links are dampened springs that pull related nodes together.
+
+Unknown words or new:
+- Deluge of data
+- Depict aggregate patterns and often support drill-down
+- The “sunburst” layout is equivalent to the “icicle” layout,
+- In addition, interactivity allows the user to direct the layout and jiggle nodes to disambiguate links.
+- What cliques exist?
+- Choropleth map
+- Dendrogram
