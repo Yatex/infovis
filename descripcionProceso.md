@@ -1,4 +1,5 @@
 # Proceso de datos crudos a procesados
+### Descripción del proceso de transformación de los datos crudos a los datos procesados
 
 Todos los datos se obtuvieron despues de jugar al futbol con mi equipo. Cada semana luego de terminar los todos los posibles partidos, anotaba en el excel los resultados, los jugadores que jugaron, los goles, comentarios, entre otras cosas.
 
